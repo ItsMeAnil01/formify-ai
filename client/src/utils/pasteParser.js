@@ -2,7 +2,7 @@
  * pasteParser.js — rewritten for robustness
  *
  * Converts pasted text (ChatGPT output, markdown questionnaires, numbered lists)
- * into structured question objects matching the FormForge schema.
+ * into structured question objects matching the Formify.ai schema.
  *
  * Supported question patterns:
  *   ## 1. Question text        (markdown heading with optional number)

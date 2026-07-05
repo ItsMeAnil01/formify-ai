@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔨 FormForge
+# 🔨 Formify.ai
 
 **A full-stack Smart Form, Quiz & Exam Builder.**
 MERN stack · JWT auth · auto-grading · AI-assisted question generation (Claude or Gemini) · real analytics.
@@ -19,7 +19,7 @@ MERN stack · JWT auth · auto-grading · AI-assisted question generation (Claud
 
 ## What is this?
 
-FormForge is one form builder that becomes a **survey**, **quiz**, **exam**, **feedback form**, **registration form**, or a **plain custom form** depending on a single `mode` field — not five different models bolted together. Build a question set once, and marks/negative-marking/pass-fail/instant-results just turn on when the mode calls for it.
+Formify.ai is one form builder that becomes a **survey**, **quiz**, **exam**, **feedback form**, **registration form**, or a **plain custom form** depending on a single `mode` field — not five different models bolted together. Build a question set once, and marks/negative-marking/pass-fail/instant-results just turn on when the mode calls for it.
 
 It's a real, running MERN app — not a mockup:
 
@@ -77,7 +77,7 @@ It's a real, running MERN app — not a mockup:
 ## Project structure
 
 ```
-formforge/
+formify/
 ├── server/
 │   ├── src/
 │   │   ├── config/          MongoDB connection
@@ -104,7 +104,7 @@ formforge/
 ### Prerequisites
 
 - Node.js 18+
-- A MongoDB instance — local (`mongodb://127.0.0.1:27017/formforge`) or a free [MongoDB Atlas](https://www.mongodb.com/atlas) cluster
+- A MongoDB instance — local (`mongodb://127.0.0.1:27017/formify`) or a free [MongoDB Atlas](https://www.mongodb.com/atlas) cluster
 
 ### 1. Backend
 

@@ -1,5 +1,5 @@
 /**
- * csvParser.js — Client-side CSV parser for FormForge question import.
+ * csvParser.js — Client-side CSV parser for Formify.ai question import.
  *
  * Expected CSV columns (header row required, order doesn't matter):
  *   question       - (required) The question text
@@ -210,7 +210,7 @@ export const downloadCSVTemplate = () => {
   // Trigger download
   const a = document.createElement("a");
   a.href = url;
-  a.download = "formforge_questions_template.csv";
+  a.download = "formify_questions_template.csv";
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
