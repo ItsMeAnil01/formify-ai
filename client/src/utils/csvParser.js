@@ -186,19 +186,19 @@ export const downloadCSVTemplate = () => {
     // Header
     "question,type,option1,option2,option3,option4,correct_answer",
     // Survey MCQ — no correct answer
-    "How comfortable are you being your true self with your partner?,mcq_single,Not comfortable yet,Mostly comfortable,Completely comfortable,Completely comfortable (even bad days),",
+    "How satisfied are you with our customer support?,mcq_single,Very unsatisfied,Unsatisfied,Neutral,Satisfied,Very satisfied,",
     // Survey MCQ with correct answer (quiz style)
     "What is the capital of France?,mcq_single,London,Paris,Berlin,Madrid,Paris",
     // Multiple correct
     "Which of these are primary colours?,mcq_multiple,Red,Green,Blue,Yellow,Red|Blue|Yellow",
     // Yes / No
-    "Do you trust your partner completely?,yes_no,,,,,yes",
+    "Would you recommend our product to a friend?,yes_no,,,,,yes",
     // True / False
     "The Earth revolves around the Sun.,true_false,,,,,true",
     // Open-ended
-    "Describe your relationship in your own words.,short_text,,,,, ",
+    "What is the main reason for your score?,short_text,,,,, ",
     // Paragraph
-    "Tell us more about yourself.,paragraph,,,,, ",
+    "Tell us more about your experience.,paragraph,,,,, ",
     // Rating
     "How satisfied are you with this service?,rating_star,,,,, ",
   ];

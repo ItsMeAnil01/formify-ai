@@ -164,16 +164,16 @@ const PasteTab = ({ onParsed }) => {
       <textarea
         className="w-full rounded-xl border border-ink/15 bg-white p-4 text-sm text-ink placeholder:text-ink/30 outline-none focus:border-steel focus:ring-1 focus:ring-steel resize-none font-mono leading-relaxed"
         rows={9}
-        placeholder={`## 1. How comfortable are you being your true self with your partner?
+        placeholder={`## 1. What is your favorite programming language?
 
-() Not comfortable yet
-() Mostly comfortable
-() Completely comfortable
-() Completely comfortable, even on bad days
+() JavaScript
+() Python
+() Rust
+() Go
 
 ---
 
-## 2. When you think about your partner, your first feeling is:`}
+## 2. Explain the difference between synchronous and asynchronous code:`}
         value={text}
         onChange={(e) => { setText(e.target.value); setQuestions([]); setStatus(null); }}
       />
