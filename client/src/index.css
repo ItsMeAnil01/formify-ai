@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  @apply bg-paper text-ink;
+}
+
+h1, h2, h3, .font-display {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.font-data {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+::selection {
+  background: #fde8e1;
+}
+
+/* visible keyboard focus ring, kept subtle */
+:focus-visible {
+  outline: 2px solid #ef5f3b;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+.btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2.5 text-sm font-semibold transition-all;
+}
+.btn-primary {
+  @apply btn bg-ember text-white shadow-rivet hover:bg-ember-dark active:scale-[0.98];
+}
+.btn-secondary {
+  @apply btn bg-white text-ink border border-ink/10 hover:border-ink/20 active:scale-[0.98];
+}
+.btn-ghost {
+  @apply btn text-ink/70 hover:text-ink hover:bg-ink/5;
+}
+.card {
+  @apply bg-panel rounded-xl border border-ink/10 shadow-rivet;
+}
+.input {
+  @apply w-full rounded-lg border border-ink/15 bg-white px-3.5 py-2.5 text-sm text-ink placeholder:text-ink/35 focus:border-steel focus:ring-1 focus:ring-steel outline-none transition-colors;
+}
+.label {
+  @apply block text-xs font-semibold uppercase tracking-wide text-ink/50 mb-1.5;
+}
